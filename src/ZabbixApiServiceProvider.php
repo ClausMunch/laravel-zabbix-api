@@ -2,9 +2,9 @@
 
 namespace Codepoint\ZabbixApi;
 
+use Codepoint\ZabbixApi\Commands\ZabbixApiCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Codepoint\ZabbixApi\Commands\ZabbixApiCommand;
 
 class ZabbixApiServiceProvider extends PackageServiceProvider
 {

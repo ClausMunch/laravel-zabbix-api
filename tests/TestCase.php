@@ -2,9 +2,9 @@
 
 namespace Codepoint\ZabbixApi\Tests;
 
+use Codepoint\ZabbixApi\ZabbixApiServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Codepoint\ZabbixApi\ZabbixApiServiceProvider;
 
 class TestCase extends Orchestra
 {
