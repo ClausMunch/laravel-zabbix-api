@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Codepoint\ZabbixApi\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ZabbixApiCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-zabbix-api';
 
     public $description = 'My command';
 
